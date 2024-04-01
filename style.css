@@ -1,0 +1,507 @@
+*{
+	margin: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: titre;
+	src: url("chewy.ttf");
+}
+
+@font-face {
+	font-family: corps;
+	src: url("typo1.ttf");
+}
+
+
+@font-face {
+	font-family: bulle;
+	src: url("typo1.ttf");
+}
+
+header img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  header img {
+    height: 200px; /* Ajuster la hauteur pour les mobiles */
+  }
+}
+
+strong {
+  color: darkviolet;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+li {
+	list-style-type: none;
+}
+
+h3 ,h4 , h5 {
+	font-family: bulle;
+}
+
+h3{
+	font-family: titre;
+	}
+
+p {
+	font-family: corps;
+	margin: 1vh 2vw;
+}
+
+a {
+	text-decoration: none;
+	font-family: corps
+}
+
+ul {
+	text-align: center;
+}
+
+div {
+  display: flex; 
+  justify-content: center; 
+  margin-top: 300px; 
+}
+
+.centered-image {
+  max-width: 200px; 
+  max-height: 1500px; 
+}
+
+
+<img src="Maquette desktop.png" class="centered-image" style="width: 200px; height: 900px;">
+<img src="Maquette mobile.png" style="width: 180px; height: 1500px;">
+
+
+
+@media screen and (min-width: 2000px) {
+		#menu li {
+			width: 20vw;
+			margin: 0 1vw;
+			font-size: 0.1vh;
+		
+		}
+}
+
+
+@media screen and (min-width: 1500px) {
+		#menu li {
+			width: 20vw;
+			margin: 0 0.8vw;
+			font-size: 1.5vw;
+			height: 50vh;
+		}
+
+		#menu p {
+			font-size: 1vw;
+		}
+
+		#creaiut {
+			height: 120vh;
+
+		}
+
+		#ivb li , #creaiut li , #rs li , #insta li, #projetperso li {
+			display: inline-block;
+			width: 40vw;
+			height: 100vh;
+			text-align: left;
+			vertical-align: top;
+			margin: 4vh 2vw;
+
+		}
+
+
+
+
+	#comp h3 {
+		margin-top: 5vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+	}
+
+	
+
+	
+	#comp h4, #projetperso h4{
+		font-size: 3vh;
+		margin-top: 5vh;
+	}
+
+
+	#comp li {
+		margin-top: -25vh ;
+
+	}
+
+
+	img {
+		height: 100vh;
+		width: auto;
+	}
+
+	#descr {
+		font-size: 2rem;
+		padding: 0vh 2vw;
+			}
+
+	article {
+		height: 120vh;
+		
+	}
+
+	#contact {
+		height: 100vh;
+		font-size: 2vw;
+	}
+
+	#contact p {
+		text-align: left;
+		font-size: 1.5vw;
+		margin-left: -42vh;
+
+}
+
+}
+
+@media screen and (min-width: 750px) {
+	#menu li {
+		display:inline-block;
+		width: 20vw;
+		margin: 0 1vw;
+		height: 12rem;
+
+	}
+
+	#contact a { 
+		line-height: 23vh;
+	}
+
+	#rs li ,  #insta li, #contact li {
+		display: inline-block;
+		width: 40vw;
+		
+		text-align: left;
+		vertical-align: top;
+		margin: 10vh 1.5vw;
+	}
+
+	#projetperso li {
+		display: inline-block;
+		width: 40vw;
+		
+		text-align: left;
+		vertical-align: top;
+		margin: 100vh 1.5vw;
+
+	}
+
+
+
+	#ivb li {
+		display: inline-block;
+		width: 40vw;
+		
+		text-align: left;
+		vertical-align: top;
+		margin: -40vh 1.5vw;
+	}
+
+#branding li {
+		display: inline-block;
+		width: 40vw;
+		
+		text-align: left;
+		vertical-align: top;
+		margin: 170vh 1.5vw;
+	}
+
+
+
+
+	#comp h3 {
+		margin-top: 5vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+
+	}
+
+	#contact h3 {
+		margin-top: -100vh;
+		margin-bottom: 0vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+
+	}
+
+#branding h4, #ivb h4{
+	font-size: 5vh;
+}
+
+
+	#projetperso h3 {
+		margin-top: 180vh;
+		margin-bottom: -100vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+
+	}
+
+	#contact h4 {
+	margin-top: 0vh;
+		margin-bottom: 0vh;
+		font-size: 4vh;
+		margin-left: -19vw;
+	}
+
+	#comp h4, #projetperso h4{
+		margin-left: 2vw;
+		font-size: 2vw;
+}
+
+
+	#descr { 
+		margin: 0vh 4vw;
+	}
+	 
+	
+	p {
+		font-size: 2.5vh;
+		margin: 2vh 3vw;
+		text-align: left;
+	}
+
+	
+	
+
+#menu h3 {
+	margin: 1.38rem auto;
+
+}
+
+
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1500px) { 
+
+	article { 
+		height: 100vh;
+	}
+	
+	#ivb li , #creaiut li , #rs li , #insta li , #projetperso li , #contact li {
+		height: 100vh;
+	}	
+
+
+	#contact { 
+		height: 70vh;
+	}
+
+	#contact h4 { 
+		padding-top: -1000vh;
+		margin-top: -1000vh;
+	}
+
+}
+
+@media screen and (max-width: 750px) {
+
+	html {
+		text-align: center;
+		margin-left: 0.5vh;
+	}
+
+	#menu li {
+			width: 80vw;
+			margin: 6vh 10vw;
+			font-size: 4.5vw;
+			padding-top: 1vh;
+			height: 8rem;
+			
+	}
+
+	#menu h3 {
+	margin: 0.5rem auto;
+
+}
+
+	#descr {
+		font-size: 3vh;
+		padding: 0vh 1vw;
+			}
+
+	img {
+		width: 85%;
+		margin: 3vh 0vw;
+	}
+
+	#img {
+		height: 90%;
+	}
+
+	#menu a {
+		margin: 5vh auto;
+	}
+
+	#comp h3 , #projetperso h3 , #contact h3{
+		margin-top: 15vh;
+		font-size: 4vh;
+	}
+
+	#comp h5 {
+		margin-left: 5vw ;
+		font-size: 1.8vh;
+		color: purple;
+}
+
+	#comp h4, #projetperso h4 , #contact h4{
+		font-size: 2.8vh;
+		margin-top: 10vh;
+		
+	}
+
+
+
+	p {
+		font-size: 2vh;
+		margin: 2vh 5vw;
+	}
+
+	#contact {
+		font-size: 4vw;
+		height: 80vh;
+	}
+	
+
+	#phrase {
+	padding-top: 5vh;
+	}	
+
+	
+}
+}
+
+
+#ivb {
+	margin-top: -50vh;
+}
+
+
+
+
+
+
+
+
+
+header img {
+	width: 100vw;
+	/* box-shadow: none; */
+}
+
+img {}
+
+img {
+	box-shadow: 10px 10px 18px #a7a7a7;
+}
+
+
+#menu {
+	text-align: center;
+}
+
+#menu li {
+	vertical-align: top;
+	background: transparent url("abeille.jpg") center center no-repeat;
+	background-size: cover;
+	box-shadow: 10px 10px 18px #a7a7a7;
+	border-radius: 5%;
+}
+
+
+
+#menu p {
+	margin-bottom: 2vh;
+}
+#menu a {
+	padding: 0.8vh 2vw;
+	background-color: rgba(48, 48, 48, 1);
+	color: white;
+	border-radius: 5%;
+
+}
+
+
+
+#comp h5 {
+	text-align: left;
+}
+
+
+
+
+#detail ul {
+	text-align: center;
+	
+}
+
+
+#detail li {
+	width: 40vh;
+	height: 40vh;
+	border: solid 0.5vh rgba(48, 48, 48, 1);
+	display: inline-block;
+	margin : 2vh 1vw 2vh 1vw;
+	vertical-align: top;
+	box-shadow: 10px 10px 18px #a7a7a7;
+}
+
+#detail p {
+	opacity: 0;
+	transition: all	0.5s ease;
+	text-align: center;
+	width: 40vh;
+	height: 25vh;
+	background-color: white;
+	font-family: bulle;
+	font-size: 4vh;
+	padding-top: 15vh;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#detail p:hover {
+	transform : scale(0.9) ;
+	opacity: 0.6;
+
+}
+
+
+
+#rs a {
+		color: white;
+	}
+
+
+
+
+#ph li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0vh 1vw 0vh 1vw;
+}
+
+
+
